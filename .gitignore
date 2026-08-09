@@ -31,3 +31,5 @@ Thumbs.db
 
 # --- Логи ---
 *.log
+
+**/*.egg-info/
