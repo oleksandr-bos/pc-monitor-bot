@@ -1,0 +1,33 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# --- Виртуальные окружения ---
+venv/
+.venv/
+env/
+
+# --- Секреты и конфиги ---
+.env
+*.env
+!.env.example
+
+# --- База данных (локальная разработка) ---
+*.db
+*.sqlite3
+
+# --- IDE / редакторы ---
+.vscode/
+.idea/
+*.swp
+
+# --- OS-мусор ---
+.DS_Store
+Thumbs.db
+
+# --- Логи ---
+*.log
