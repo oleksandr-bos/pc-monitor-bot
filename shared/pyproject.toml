@@ -1,0 +1,12 @@
+[project]
+name = "pcmonitor-shared"
+version = "0.1.0"
+description = "Shared Pydantic schemas for PC Monitor Bot (server + agent contract)"
+requires-python = ">=3.10"
+dependencies = [
+    "pydantic>=2.0",
+]
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
